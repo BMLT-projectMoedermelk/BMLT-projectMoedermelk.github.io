@@ -1,0 +1,15 @@
+body {
+  height: 100vh;
+}
+
+embed{
+  height: 100%;
+  width:50%; 
+}
+
+#pdf{
+  display: flex;
+  justify-content: center;
+  height: 90%;
+  width:100%; 
+}
