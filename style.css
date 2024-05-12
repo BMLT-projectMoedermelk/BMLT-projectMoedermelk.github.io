@@ -1,15 +1,78 @@
 body {
   height: 100vh;
+  margin-left: 1em;
+  background-color: #dceaf7;
 }
 
-embed{
+embed {
   height: 100%;
-  width:50%; 
+  width: 50%;
 }
 
-#pdf{
+#pdf {
   display: flex;
   justify-content: center;
   height: 90%;
-  width:100%; 
+  width: 100%;
+}
+
+.myButton {
+  background-color: #4e96d9;
+  border-radius: 28px;
+  border: 1px solid #163e64;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #4e96d9;
+  width: 9em;
+  text-align: center;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+.myButton:hover {
+  background-color: #163e64;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+h1,
+p {
+  color: #163e64;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#HOGENT {
+  width: 100px;
+  height: 56px;
+}
+
+#afbeeldingen{
+  display: flex; 
+  flex-wrap: wrap;
+  gap: 1em 1%; 
+}
+#afbeeldingen img{
+  width: 32.3%;
+  
+}
+
+
+@media screen and (max-width:480px){
+  #afbeeldingen img{
+    width: 99%;
+  }
+  footer{
+    display: block;
+  }
 }
