@@ -33,12 +33,18 @@ embed {
   margin-right: 1em;
   margin-bottom: 1em;
 }
+
 .myButton:hover {
   background-color: #163e64;
 }
 .myButton:active {
   position: relative;
   top: 1px;
+}
+
+#knoppenHomepage * {
+  height: 2em;
+  vertical-align: middle;
 }
 
 h1,
@@ -57,22 +63,20 @@ footer {
   height: 56px;
 }
 
-#afbeeldingen{
-  display: flex; 
+#afbeeldingen {
+  display: flex;
   flex-wrap: wrap;
-  gap: 1em 1%; 
+  gap: 1em 1%;
 }
-#afbeeldingen img{
+#afbeeldingen img {
   width: 32.3%;
-  
 }
 
-
-@media screen and (max-width:480px){
-  #afbeeldingen img{
+@media screen and (max-width: 480px) {
+  #afbeeldingen img {
     width: 99%;
   }
-  footer{
+  footer {
     display: block;
   }
 }
